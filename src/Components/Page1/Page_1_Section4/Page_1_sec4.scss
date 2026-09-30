@@ -1,0 +1,51 @@
+.Page_1_sect4{
+   width: 99.2vw;
+    height: 130vh;
+    background-color: #FFF4E7;
+    .big_container{
+        width: 95vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      .left_container{
+        width: 80vw;
+        height: 76vh;
+        display: flex;
+        
+      }
+        .right_container{
+            width: 50vw;
+            display: grid;
+            gap: 5vh;
+            .slovo{
+                h2{
+                    color: #311F09;
+                    font-size: 70px;
+                }
+                span{
+                    color: #FF8A00;
+                }
+            }
+            .text{
+                p{
+                    font-size: 18px;
+                    color: #5C4529;
+                }
+            }
+            .knopka{
+                width: 20vw;
+
+            button{
+                    width: 167px;
+                    height: 45px;
+                    border: none;
+                    border-radius: 3vh;
+                    color: white;
+                    font-weight:700;
+                    background-color: #FF8A00;
+            }
+        }
+        }
+    }
+}
