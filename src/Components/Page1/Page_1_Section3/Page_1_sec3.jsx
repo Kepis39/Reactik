@@ -30,9 +30,10 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+                <p>Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
                   eget auctor aliquam, diam. 
+                  </p>
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -48,9 +49,9 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+                <p>Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
-                  eget auctor aliquam, diam. 
+                  eget auctor aliquam, diam. </p>
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -66,9 +67,9 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+                <p>Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
-                  eget auctor aliquam, diam. 
+                  eget auctor aliquam, diam. </p>
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -84,9 +85,9 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+                <p>Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
-                  eget auctor aliquam, diam. 
+                  eget auctor aliquam, diam. </p>
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -102,9 +103,9 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+               <p> Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
-                  eget auctor aliquam, diam. 
+                  eget auctor aliquam, diam.</p> 
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -120,9 +121,9 @@ return(
              <img src={Photo.Rating}/>
              </div>
              <div class = "text">
-                Lorem ipsum dolor sit amet, consectetur
+                <p>Lorem ipsum dolor sit amet, consectetur
                  adipiscing elit. Egestas consequat mi
-                  eget auctor aliquam, diam. 
+                  eget auctor aliquam, diam. </p>
              </div>
              <div class="cena">
                 <p>$12.05</p>
@@ -132,18 +133,21 @@ return(
       </div>
 
        <div class="stranicii">
-        <div clas="left_button"><button><img src={Photo.Rectangleone}/></button></div>
+        <div class="left_button"><button><img src={Photo.Rectangleone}/></button></div>
         <div class="number_page_menu">
           <button>1</button>
           <button>2</button>
           <button>3</button>
-          <button>...</button>
+          <button class="pusto">...</button>
         </div>
-        <div clas="right_button"><button><img src={Photo.Rectangletwo}/></button></div>
+        <div class="right_button"><button><img src={Photo.Rectangletwo}/></button></div>
        </div>
    
         </div>
     </section>
+    </>
+)
+}
     </>
 )
 }
