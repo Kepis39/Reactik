@@ -1,0 +1,43 @@
+.Page_1_sect3{
+    width: 99.2vw;
+    height: 220vh;
+    .very_big_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .zagolovok{
+            font-size: 60px;
+            color: #311F09;
+        }
+        .knopki{
+            width: 80vw;
+            height: 30vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            button{
+                width: 232px;
+                height: 76px;
+                background: none;
+                border: none;
+                border-radius: 4vh;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: #311F09;
+                color: white;
+                font-weight:500;
+            }
+        }
+        .container_menu{
+            width: 70vw;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20vh;
+            align-items: center;
+
+        }
+        
+    }
+}
